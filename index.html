@@ -1,0 +1,27 @@
+<title>How dark are my skies?</title>
+<h1>How dark are my skies?</h1>
+Instructions:
+<br>
+1. Crop a section of a single JPEG sub that is near the center but does not contain your target
+<br>
+2. Upload the cropped section
+<br>
+3. Enter in the details for your sub
+<br>
+4. Find out how dark your skies are!
+<br>
+<br>
+
+<form action="upload.py" method="post" enctype="multipart/form-data">
+Image: <input type="file" name="upload" />
+<br>
+Exposure (seconds): <input type="text" name="exp" />
+<br>
+Aperture: <input type="text" name="ap" />
+<br>
+ISO: <input type="text" name="iso" />
+<br>
+<input type="submit" value="Submit"/></form>
+<br>
+<br>
+The formula for calculating skyfog was originally developed by Samir Kharusi and can be found here: <a href="http://www.pbase.com/image/37608572">http://www.pbase.com/image/37608572</a>
